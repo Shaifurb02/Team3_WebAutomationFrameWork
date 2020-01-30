@@ -12,6 +12,13 @@
         <module>Amazon</module>
         <module>BestBuy</module>
         <module>NBC</module>
+        <module><![CDATA[AT&T]]></module>
+        <module>ATNT</module>
+        <module>NewYorkLife</module>
+        <module>BlueCrossBlueShield</module>
+        <module>TDBank</module>
+        <module>Marriot</module>
+        <module>United</module>
     </modules>
 
 
