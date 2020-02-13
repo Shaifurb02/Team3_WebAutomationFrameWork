@@ -8,57 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Amazon Automation Script</th></tr>
-<tr><td><a href="#t0">Amazon Home</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">52</td><td></td><td></td></tr>
+<tr><th colspan="8">ATNT Automation Script</th></tr>
+<tr><td><a href="#t0">ATNT Home</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,323</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon Automation Script</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Home &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="3">testhome.TestHomePage</td><td><a href="#m0">cleanUp</a></td><td rowspan="2">1580674553231</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m1">cleanUp</a></td></tr><tr class="failedeven"><td><a href="#m2">setUp</a></td><td rowspan="1">1580674553198</td><td rowspan="1">30</td></tr><tr><th colspan="4">Amazon Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testhome.TestHomePage</td><td><a href="#m3">testDoSearchForBelt</a></td><td rowspan="1">1580674553189</td><td rowspan="1">0</td></tr><tr><th colspan="4">Amazon Home &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">testhome.TestHomePage</td><td><a href="#m4">afterEachTestMethod</a></td><td rowspan="2">1580674553232</td><td rowspan="2">-1580674553232</td></tr><tr class="skippedeven"><td><a href="#m5">afterEachTestMethod</a></td></tr><tr class="skippedeven"><td><a href="#m6">setUp</a></td><td rowspan="1">1580674553231</td><td rowspan="1">-1580674553231</td></tr><tr class="skippedeven"><td><a href="#m7">startExtent</a></td><td rowspan="2">1580674553231</td><td rowspan="2">-1580674553231</td></tr><tr class="skippedeven"><td><a href="#m8">startExtent</a></td></tr><tr><th colspan="4">Amazon Home &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">testhome.TestHomePage</td><td><a href="#m9">testDoSearch</a></td><td rowspan="1">1580674553230</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">testDoSearchForTshirt</a></td><td rowspan="1">1580674553232</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ATNT Automation Script</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ATNT Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestHome.TestHomePage</td><td><a href="#m0">testClickOnPhonesButton</a></td><td rowspan="1">1581546956259</td><td rowspan="1">11905</td></tr></tbody>
 </table>
-<h2>Amazon Home</h2><h3 id="m0">testhome.TestHomePage#cleanUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at common.WebAPI.cleanUp(WebAPI.java:184)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testhome.TestHomePage#cleanUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at common.WebAPI.cleanUp(WebAPI.java:184)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testhome.TestHomePage#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>false</td><td>browserstack</td><td>windows</td><td>10</td><td>chrome</td><td>79</td><td>https://www.amazon.com</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.IllegalStateException: The driver is not executable: /Users/sbhuiyan/Desktop/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/Amazon/../Generic/BrowserDriver/windows/chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at common.WebAPI.getLocalDriver(WebAPI.java:135)
-	at common.WebAPI.setUp(WebAPI.java:120)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testhome.TestHomePage#testDoSearchForBelt</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Method public void testhome.TestHomePage.testDoSearchForBelt() requires a @DataProvider named : Belt
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testhome.TestHomePage#afterEachTestMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testhome.TestHomePage#afterEachTestMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testhome.TestHomePage#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testhome.TestHomePage#startExtent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testhome.TestHomePage#startExtent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">testhome.TestHomePage#testDoSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver is not executable: /Users/sbhuiyan/Desktop/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/Amazon/../Generic/BrowserDriver/windows/chromedriver.exe
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at common.WebAPI.getLocalDriver(WebAPI.java:135)
-	at common.WebAPI.setUp(WebAPI.java:120)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">testhome.TestHomePage#testDoSearchForTshirt</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at common.WebAPI.cleanUp(WebAPI.java:184)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ATNT Home</h2><h3 id="m0">TestHome.TestHomePage#testClickOnPhonesButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

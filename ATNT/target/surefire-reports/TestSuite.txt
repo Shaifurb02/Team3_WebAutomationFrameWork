@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 4, Errors: 0, Skipped: 7, Time elapsed: 0.61 s <<< FAILURE! - in TestSuite
-testDoSearchForBelt(testhome.TestHomePage)  Time elapsed: 0.317 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Method public void testhome.TestHomePage.testDoSearchForBelt() requires a @DataProvider named : Belt
-
-setUp(testhome.TestHomePage)  Time elapsed: 0.351 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver is not executable: /Users/sbhuiyan/Desktop/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/WebAutomationFramwork_WeekDaysEvening_SeleniumDecember2019/Amazon/../Generic/BrowserDriver/windows/chromedriver.exe
-
-cleanUp(testhome.TestHomePage)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-
-cleanUp(testhome.TestHomePage)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.736 s - in TestSuite
