@@ -88,12 +88,20 @@ public class HomePage extends WebElementHomePage {
 //    public void checkOnInternetButton (){
 //        clickOnInternetButton.click();
 //    }
-
-    @FindBy (how = How.XPATH, using = WebElementHomePage.xPathTVButton)
-    WebElement clickOnTVButton;
-    public void checkOnTVButton () {
-        clickOnTVButton.click();
-    }
+//
+//    @FindBy (how = How.XPATH, using = WebElementHomePage.xPathTVButton)
+//    WebElement clickOnTVButton;
+//    public void checkOnTVButton () {
+//        clickOnTVButton.click();
+//    }
+//
+//    @FindBy (how = How.XPATH, using = WebElementHomePage.xPathClickOnPrePaid)
+//    WebElement clickOnPrePaid;
+//    public void checkOnPrePaid () throws InterruptedException {
+//        driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[2]/button")).click();
+//        sleepFor(3);
+//        clickOnPrePaid.click();
+//    }
 
 
 

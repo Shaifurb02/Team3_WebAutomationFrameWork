@@ -104,23 +104,23 @@ public class TestHomePage extends WebAPI {
 //        home.checkOnInternetButton();
 //    }
 
+//
+//    @Test (priority = 12)
+//    public void testTVButton ()  throws InterruptedException {
+//        HomePage home = PageFactory.initElements(driver, HomePage.class);
+//        driver.manage().window().maximize();
+//        sleepFor(4);
+//        home.checkOnTVButton();
+//    }
+//
 
-    @Test (priority = 12)
-    public void testTVButton ()  throws InterruptedException {
+    @Test (priority = 13)
+    public void testPrePaid ()  throws InterruptedException {
         HomePage home = PageFactory.initElements(driver, HomePage.class);
         driver.manage().window().maximize();
-        sleepFor(4);
-        home.checkOnTVButton();
+        sleepFor(3);
+        home.checkOnPrePaid();
     }
-
-
-
-
-
-
-
-
-
 
 
 

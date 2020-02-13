@@ -131,6 +131,7 @@ public class WebAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Windows/chromedriver.exe");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
+
             }
             driver = new ChromeDriver();
         }
@@ -430,11 +431,11 @@ public class WebAPI {
 
     }
 
-    public void mouseHoverByXpath(String locator) {
+    public static void mouseHoverByXpath(String locator) {
         try {
-            WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
+            WebElement element = driver.findElement(By.xpath(locator));
+            action.moveToElement(element).perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.xpath(locator));
