@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="ATNT Automation Script" parallel="false">
+<suite name="United Automation Script" parallel="false">
 
 
-    <test name="ATNT Home">
+    <test name="United Home">
         <parameter name="useCloudEnv" value="false"/>
         <parameter name="cloudEnvName" value="browserstack"/>
         <!--<parameter name="cloudEnvName" value="saucelab"/>-->
@@ -14,29 +14,12 @@
         <!--<parameter name="os_version" value="Sierra"/>-->
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="79"/>
-        <parameter name="url" value="https://www.att.com"/>
+        <parameter name="url" value="https://www.united.com/"/>
 
         <classes>
-            <class name="TestHome.TestATTHomePage"/>
+            <class name="TestHome.TestUnitedHomePage"/>
         </classes>
 
     </test>
 
-
 </suite>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
